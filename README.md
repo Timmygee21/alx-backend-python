@@ -15,12 +15,11 @@ Hence, calling
 `fn("a", 1)`  
 
 somewhere in your code will not raise an exception until the code is actually executed and the function is called:  
-`
->>> fn("a", 1)  
+
+`>>> fn("a", 1)  
 Traceback (most recent call last):  
   File "<stdin>", line 1, in <module>  
-TypeError: can only concatenate str (not "int") to str  
-`  
+TypeError: can only concatenate str (not "int") to str`  
 
 In Python 3, type annotations do not change this. Python is still a dynamically-typed language. Type annotations serve the following purpose:  
 
